@@ -1,13 +1,93 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(245, 228, 208);
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+
 }
+
+.f-right {
+  width: fit-content;
+  min-height: 100vh;
+  /* background: red; */
+  color: black;
+  padding-left: 20rem;
+  
+}
+
+.f-left {
+  /* background: black; */
+  /* width:50%; */
+  color: black;
+width: auto;
+    /* margin: 6rem; */
+    padding: 4rem;
+   
+  
+
+}
+
+
+ th {
+  padding: 0.5rem;
+  border: 1px solid black;
+  /* border-right: none; */
+
+ }
+ table{
+  border-collapse: collapse;
+ }
+
+ .td-userTable {
+  padding: 1rem;
+  border: 1px solid rgb(84, 37, 45);
+ }
+
+ .delete-btn{
+background-color: rgb(221, 112, 112);
+margin: 2px ;
+border-radius: 5px;
+font-size: 15px;
+padding: 6px 6px
+ }
+  .edit-btn{
+background-color: rgb(80, 183, 80);
+margin:5px;
+border-radius: 5px;
+font-size: 15px;
+padding: 6px 6px
+ }
+
+ .addUser-btn {
+background-color: rgb(102, 128, 185);
+margin: 10px;
+border-radius: 5px;
+font-size: 15px;
+padding: 6px 6px
+ }
+/* 
+ label {
+
+  /* font-weight: 600;
+ }
+ input{ */
+/* border: 1px solid; */
+/* margin: 3px; */
+
+ .td-label{
+  padding: 7px;
+  
+ }
+  input {
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+ h1{
+  text-align: center;
+ }
